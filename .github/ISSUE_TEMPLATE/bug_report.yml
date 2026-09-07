@@ -1,0 +1,66 @@
+name: Bug report
+description: Report something that is broken or unexpected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. Prefer opening this on the **product repository** that owns the code (for example `skybridge`), not on org meta repos unless the bug is about these default templates or the org profile.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository / package
+      description: Which Alpic project is affected?
+      placeholder: e.g. alpic-ai/skybridge
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Clear, short description of the problem
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps someone else can follow
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime, package versions, client (ChatGPT, Claude, etc.) if relevant
+      placeholder: |
+        - OS:
+        - Node / Python:
+        - Package version:
+        - Client:
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Paste relevant logs (redact secrets) or describe what you see
+    validations:
+      required: false
