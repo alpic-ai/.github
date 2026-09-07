@@ -24,7 +24,7 @@ npm create skybridge@latest my-app
 | --- | --- |
 | [skybridge](https://github.com/alpic-ai/skybridge) | Full-stack TypeScript framework for MCP Apps and ChatGPT Apps |
 | [apps-sdk-template](https://github.com/alpic-ai/apps-sdk-template) | Minimal TypeScript ChatGPT App starter on Skybridge |
-| [webmcp](https://github.com/alpic-ai/webmcp) | Make an existing website MCP-compatible |
+| [webmcp](https://github.com/alpic-ai/webmcp) | Skill / helpers so a site can expose tools to browser agents via WebMCP |
 | [webmcp-proxy](https://github.com/alpic-ai/webmcp-proxy) | Expose an existing MCP server to browsing agents on your site |
 | [alpix](https://github.com/alpic-ai/alpix) | Collaborative canvas demo: MCP App + WebMCP, powered by Skybridge |
 | [grizzly](https://github.com/alpic-ai/grizzly) | Visual testing for MCP servers |
